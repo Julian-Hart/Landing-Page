@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.head-container {
+  background-color: #2f2f2f;
+  color: #dedede;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #dedede;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-left {
+  display: flex;
+  gap: 15px;
+}
+.head-content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 40px;
+  gap: 20px;
+}
+.head-img img {
+  border-radius: 25px;
+}
+.tran1 {
+  display: flex;
+}
+.transition {
+  flex: 1;
+
+  margin-top: -225px;
+}

@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: #6f0000;
+  color: #dedede;
 }
 
 .head-container {
@@ -8,15 +10,22 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 30px;
-
   margin: 0;
   border: 0;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
 a {
   text-decoration: none;
   color: #dedede;
   font-weight: bold;
+}
+
+a:hover,
+.pro-reason img:hover,
+button:hover {
+  scale: 120%;
 }
 
 .header {
@@ -34,15 +43,76 @@ a {
   justify-content: space-around;
   padding: 40px;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .head-img img {
   border-radius: 25px;
 }
-.tran1 {
+.main-data {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.transition {
-  flex: 1;
+.pros-list {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pro-reason img {
+  height: 150px;
+  width: auto;
+  border-radius: 25px;
+  border: 5px solid #2f2f2f;
+}
 
-  margin-top: -225px;
+.pro-reason p {
+  width: 100px;
+  text-align: center;
+}
+.pro-reason {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: #2f2f2f;
+  margin-top: 40px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: larger;
+}
+.quote-speaker {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.sign-up {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  background-color: #2f2f2f;
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  flex-wrap: wrap;
+}
+.sign-up-text {
+  width: 300px;
+}
+
+button {
+  background-color: #6f0000;
+  color: #dedede;
+  border-radius: 10px;
+  padding: 15px;
 }
